@@ -2,11 +2,11 @@
 
 ## Overview
 
-`gcommit` is an innovative Python tool that leverages Google's Gemini AI to automatically generate intelligent, context-aware commit messages. Say goodbye to writer's block and inconsistent commit descriptions!
+`gcommit` is a Python script that leverages Google's Gemini AI to automatically generate intelligent, context-aware commit messages. No more mental tax when trying to create commit messages.
 
 ## 🌟 Features
 
-- **AI-Powered Commit Messages**: Uses Gemini AI to analyze git diffs
+- **AI generated Commit Messages**: Uses Gemini AI to analyze git diffs
 - **Seamless Integration**: Works directly with your existing Git workflow
 - **Async Performance**: Lightweight and fast async implementation
 - **Easy Setup**: Simple installation and configuration
@@ -45,7 +45,7 @@ pip install -r requirements.txt
 git add .
 
 # Generate commit message
-gcommit
+python gcommit.py
 
 ```
 
@@ -72,18 +72,9 @@ Contributions welcome!
 - Quality of commit message depends on AI model
 - API usage may incur costs
 
-## 📄 License
-
-[Your Chosen License - e.g., MIT]
 
 ## 🌈 Motivation
 
-Developed to streamline developer workflow and improve commit message quality using cutting-edge AI technology.
+Developed to make developer workflow easier and improve commit message quality by ensuring its context-aware.
 
-## 📞 Support
-
-Open an issue on GitHub for any questions or problems.
-
----
-
-**Made with ❤️ by [Your Name]**
+**Made with ❤️ by thegranduke**
